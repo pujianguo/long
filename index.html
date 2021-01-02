@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="header"></div>
+  <div class="content">
+    <div class="menu">
+      <div class="menu-title">重构规划数量统计</div>
+      <div class="num-box">
+        <div class="num-item">
+          <span class="number">79</span>
+          <span class="desc">规划总数</span>
+        </div>
+        <div class="line"></div>
+        <div class="num-item">
+          <span class="number">13</span>
+          <span class="desc">本月新增</span>
+        </div>
+        <div class="line"></div>
+        <div class="num-item">
+          <span class="number">2</span>
+          <span class="desc">一周内截止</span>
+        </div>
+      </div>
+      <div class="menu-title">重构规划层级统计</div>
+      <ul class="menu-list">
+        <li class="menu-list-item">
+          <span class="text">重构层级L1</span>
+          <span class="count">16</span>
+        </li>
+        <li class="menu-list-item">
+          <span class="text">重构层级L2</span>
+          <span class="count">5</span>
+        </li>
+        <li class="menu-list-item">
+          <span class="text">重构层级L3</span>
+          <span class="count">8</span>
+        </li>
+        <li class="menu-list-item">
+          <span class="text">重构层级L4</span>
+          <span class="count">24</span>
+        </li>
+      </ul>
+      <div class="menu-title">我的重构规划</div>
+      <ul class="menu-list">
+        <li class="menu-list-item">
+          <span class="text">我发布的重构规划</span>
+          <span class="count">2</span>
+        </li>
+        <li class="menu-list-item">
+          <span class="text">我负责的重构子项</span>
+          <span class="count">1</span>
+        </li>
+        <li class="menu-list-item">
+          <span class="text">我参与的重构规划</span>
+          <span class="count">2</span>
+        </li>
+      </ul>
+    </div>
+    <div class="right">
+      <div class="condition">
+        <div class="condition-left">
+          <select class="select-year" name="year" id="year">
+            <option value="2020">2020年</option>
+            <option value="2021">2021年</option>
+            <option value="2022">2022年</option>
+            <option value="2023">2023年</option>
+            <option value="2024">2024年</option>
+          </select>
+          <div class="search-input-wrapper">
+            <input class="search-input" type="text" placeholder="搜索">
+            <img class="search-icon" src="./search.png" alt="">
+          </div>
+          <select class="select-level" name="year" id="year">
+            <option value="">等级筛选</option>
+            <option value="1">等级</option>
+            <option value="2">等级</option>
+            <option value="3">等级</option>
+            <option value="4">等级</option>
+          </select>
+          <select class="select-status" name="year" id="year">
+            <option value="">状态筛选</option>
+            <option value="1">状态</option>
+            <option value="2">状态</option>
+            <option value="3">状态</option>
+            <option value="4">状态</option>
+          </select>
+        </div>
+        <div class="condition-right">
+          <button>新建规划</button>
+        </div>
+      </div>
+      <div class="container">
+        <div class="container-item" id="story">
+          <div class="container-item-title">需求池(6)</div>
+          <div class="container-item-body">
+            <div class="card">
+              <div class="card-title">
+                <span class="tag tag-blue">NFVO</span>
+                <span class="card-title-text">重构规划名称</span>
+              </div>
+              <div class="card-author">
+                <img class="avatar" src="./avatar.jpeg" alt="">
+                <span class="name">杨连刚</span>
+                <span class="tag tag-info">30K</span>
+                <span class="tag tag-warning">12-3截止</span>
+                <span class="tag tag-error">Pinddig</span>
+              </div>
+              <div class="card-content">
+                规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <span class="tag tag-blue">NFVO</span>
+                <span class="card-title-text">重构规划名称</span>
+              </div>
+              <div class="card-author">
+                <img class="avatar" src="./avatar.jpeg" alt="">
+                <span class="name">杨连刚</span>
+                <span class="tag tag-info">30K</span>
+                <span class="tag tag-warning">12-3截止</span>
+                <span class="tag tag-error">Pinddig</span>
+              </div>
+              <div class="card-content">
+                规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <span class="tag tag-blue">NFVO</span>
+                <span class="card-title-text">重构规划名称</span>
+              </div>
+              <div class="card-author">
+                <img class="avatar" src="./avatar.jpeg" alt="">
+                <span class="name">杨连刚</span>
+                <span class="tag tag-info">30K</span>
+                <span class="tag tag-warning">12-3截止</span>
+                <span class="tag tag-error">Pinddig</span>
+              </div>
+              <div class="card-content">
+                规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <span class="tag tag-blue">NFVO</span>
+                <span class="card-title-text">重构规划名称</span>
+              </div>
+              <div class="card-author">
+                <img class="avatar" src="./avatar.jpeg" alt="">
+                <span class="name">杨连刚</span>
+                <span class="tag tag-info">30K</span>
+                <span class="tag tag-warning">12-3截止</span>
+                <span class="tag tag-error">Pinddig</span>
+              </div>
+              <div class="card-content">
+                规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <span class="tag tag-blue">NFVO</span>
+                <span class="card-title-text">重构规划名称</span>
+              </div>
+              <div class="card-author">
+                <img class="avatar" src="./avatar.jpeg" alt="">
+                <span class="name">杨连刚</span>
+                <span class="tag tag-info">30K</span>
+                <span class="tag tag-warning">12-3截止</span>
+                <span class="tag tag-error">Pinddig</span>
+              </div>
+              <div class="card-content">
+                规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <span class="tag tag-blue">NFVO</span>
+                <span class="card-title-text">重构规划名称</span>
+              </div>
+              <div class="card-author">
+                <img class="avatar" src="./avatar.jpeg" alt="">
+                <span class="name">杨连刚</span>
+                <span class="tag tag-info">30K</span>
+                <span class="tag tag-warning">12-3截止</span>
+                <span class="tag tag-error">Pinddig</span>
+              </div>
+              <div class="card-content">
+                规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container-item">
+          <div class="container-item-title">NFVO业务域(6)</div>
+          <div class="container-item-body">
+            <div class="card">
+              <div class="card-header">
+                <div class="card-title">
+                  <span class="tag tag-blue">NFVO</span>
+                  <span class="card-title-text">重构规划名称</span>
+                </div>
+                <div class="card-header-right">
+                  <div class="progress-title">目标L3</div>
+                  <div class="progress-content">
+                    <div class="progress-wrapper">
+                      <div class="progress-inner" style="width: 43%;"></div>
+                    </div>
+                    <div class="progress-count">43%</div>
+                  </div>
+                </div>
+              </div>
+              <div class="card-author">
+                <img class="avatar" src="./avatar.jpeg" alt="">
+                <span class="name">杨连刚</span>
+                <span class="tag tag-info">30K</span>
+                <span class="tag tag-warning">12-3截止</span>
+                <span class="tag tag-error">Pinddig</span>
+              </div>
+              <div class="card-content">
+                规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <span class="tag tag-blue">NFVO</span>
+                <span class="card-title-text">重构规划名称</span>
+              </div>
+              <div class="card-author">
+                <img class="avatar" src="./avatar.jpeg" alt="">
+                <span class="name">杨连刚</span>
+                <span class="tag tag-info">30K</span>
+                <span class="tag tag-warning">12-3截止</span>
+                <span class="tag tag-blue">Closed</span>
+              </div>
+              <div class="card-content">
+                规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <span class="tag tag-blue">NFVO</span>
+                <span class="card-title-text">重构规划名称</span>
+              </div>
+              <div class="card-author">
+                <img class="avatar" src="./avatar.jpeg" alt="">
+                <span class="name">杨连刚</span>
+                <span class="tag tag-info">30K</span>
+                <span class="tag tag-warning">12-3截止</span>
+                <span class="tag tag-error">Pinddig</span>
+              </div>
+              <div class="card-content">
+                规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <span class="tag tag-blue">NFVO</span>
+                <span class="card-title-text">重构规划名称</span>
+              </div>
+              <div class="card-author">
+                <img class="avatar" src="./avatar.jpeg" alt="">
+                <span class="name">杨连刚</span>
+                <span class="tag tag-info">30K</span>
+                <span class="tag tag-warning">12-3截止</span>
+                <span class="tag tag-error">Pinddig</span>
+              </div>
+              <div class="card-content">
+                规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <span class="tag tag-blue">NFVO</span>
+                <span class="card-title-text">重构规划名称</span>
+              </div>
+              <div class="card-author">
+                <img class="avatar" src="./avatar.jpeg" alt="">
+                <span class="name">杨连刚</span>
+                <span class="tag tag-info">30K</span>
+                <span class="tag tag-warning">12-3截止</span>
+                <span class="tag tag-error">Pinddig</span>
+              </div>
+              <div class="card-content">
+                规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <span class="tag tag-blue">NFVO</span>
+                <span class="card-title-text">重构规划名称</span>
+              </div>
+              <div class="card-author">
+                <img class="avatar" src="./avatar.jpeg" alt="">
+                <span class="name">杨连刚</span>
+                <span class="tag tag-info">30K</span>
+                <span class="tag tag-warning">12-3截止</span>
+                <span class="tag tag-error">Pinddig</span>
+              </div>
+              <div class="card-content">
+                规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <span class="tag tag-blue">NFVO</span>
+                <span class="card-title-text">重构规划名称</span>
+              </div>
+              <div class="card-author">
+                <img class="avatar" src="./avatar.jpeg" alt="">
+                <span class="name">杨连刚</span>
+                <span class="tag tag-info">30K</span>
+                <span class="tag tag-warning">12-3截止</span>
+                <span class="tag tag-error">Pinddig</span>
+              </div>
+              <div class="card-content">
+                规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述规划描述
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container-item">
+          <div class="container-item-title">VNF-LCM业务域(6)</div>
+          <div class="container-item-body"></div>
+        </div>
+        <div class="container-item" id="access">
+          <div class="container-item-title">Access业务域(<span></span>)</div>
+          <div class="container-item-body"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
