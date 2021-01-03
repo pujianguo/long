@@ -12,7 +12,9 @@
   -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
   background-color: #eee;  /*滚动条的背景颜色*/
 }
-
+input, select {
+  outline: none;
+}
 html,body{
   width: 100%;
   height: 100%;
@@ -107,6 +109,7 @@ body{
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .condition-left{
   font-size: 0;
@@ -189,9 +192,10 @@ body{
 .card-header{
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .card-title{
-  height: 16px;
+  /* height: 16px; */
   line-height: 16px;
   margin-bottom: 12px;
 }
@@ -245,9 +249,10 @@ body{
   font-size: 12px;
 }
 .card-author{
-  height: 24px;
+  /* height: 24px; */
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   margin-bottom: 12px;
 }
 .card-author .avatar{
@@ -258,7 +263,7 @@ body{
 .card-author .name{
   color: #8a8e99;
   font-size: 14px;
-  margin: 0 8px;
+  margin: 4px 8px;
 }
 .card-author .tag{
   display: inline-block;
@@ -267,6 +272,7 @@ body{
   padding: 0 4px;
   font-size: 14px;
   border-radius: 2px;
+  margin: 2px 0;
   margin-right: 8px;
 }
 .card-author .tag-info{
